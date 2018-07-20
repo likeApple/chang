@@ -12,7 +12,8 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, stu_name AS stuName, stu_number AS stuNumber, age
+        id, stu_name AS
+        stuName, stu_number AS stuNumber, age
     </sql>
 
 </mapper>
