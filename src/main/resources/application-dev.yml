@@ -12,6 +12,10 @@ spring:
       max-wait-millis: 10000
       min-idle: 5
       initial-size: 5
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
 
 # ====================druid====================
 druid:
@@ -73,3 +77,4 @@ mybatisPlus:
     #逻辑删除配置
     logicDeleteValue: 0
     logicNotDeleteValue: 1
+
